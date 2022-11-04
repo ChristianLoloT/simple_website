@@ -1,0 +1,194 @@
+body{
+	background-image: url(3117454.png);
+}
+
+.header{
+	background-color: grey;
+	text-align: center;
+	margin: 50px;
+	padding: 50px;
+}
+
+.header h1{
+	color: #237e9c;
+}
+
+.header h3{
+	font-family: 'Permanent Marker', cursive;
+}
+
+.header p{
+	font-family: 'Kalam', cursive;
+	font-size: 20px;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+    
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    /* color: black; pertemuan 3*/
+    color: white;
+    float: left;
+    display: block;
+    width: 100px;
+    text-align: center;
+    font-family: 'M PLUS 2', sans-serif;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    background-color: rgb(27, 168, 168);
+}
+
+nav{
+    position: relative;
+    line-height: 50px;
+    background: rgba(89, 237, 248, 0.829);
+    /* background-color: transparent;
+    opacity: 50%; */
+
+}
+
+
+
+nav ul .school{
+    display: none;
+    position: absolute;
+    margin-left: 100px;
+    top: 50px;
+}
+
+nav ul .music{
+    display: none;
+    position: absolute;
+    margin-left: 200px;
+    top: 50px;
+}
+
+nav ul .book{
+    display: none;
+    position: absolute;
+    margin-left: 300px;
+    top: 50px;
+}
+
+nav ul .contact{
+    display: none;
+    position: absolute;
+    margin-left: 400px;
+    top: 50px;
+}
+
+
+nav ul li:hover ul{
+    display: block;
+
+}
+
+.nama{
+    list-style: none;
+    text-align: right;
+    margin-right: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    /* pertemuan 4 */
+    color: white;
+}
+
+/* pertemuan 4 */
+.jumbotron{
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .display-4{
+    color: white;
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+}
+
+hr{
+    width: 200px;
+    background-color: black;
+    height: 2px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+
+.carousel-item .dua{
+    margin-top: 50px;
+    font-family: 'Sacramento', cursive;
+    
+}
+
+/* faq */
+.box{
+    width: 1500px;
+    margin: 100px auto;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+
+}
+
+.box .heading{
+    background: grey;
+    border-radius:  7px 7px 0px 0px;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;}
+
+.faq{
+    padding: 0px 10px 10px;
+}
+
+::webkit-details-marker{
+    float: left;
+    margin-top: 3px;
+}
+
+details{
+    background: #f6f6f6;
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+details summary{
+    text-align: left;
+    outline: none;
+    
+}
+
+.caption{
+    font-family: 'Poiret One', cursive;
+    color: white;
+}
+
+.caption2{
+    font-family: 'Poiret One', cursive;
+    color: black;
+    
+
+}
+
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;}
